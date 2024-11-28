@@ -7,7 +7,7 @@
 
 
 .header-section{
-    height: 400px;
+    height: 450px;
     background-color: #1F2937 ;
 }
 
@@ -87,4 +87,70 @@ li{
     padding: 8px 24px;
     border-radius: 5px;
     margin-top: 10px;
+}
+
+
+
+
+.middle-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 20px 0;
+    align-self: center;
+}
+
+
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 30px; */
+}
+
+.card-1,.card-2,.card-3,.card-4{
+    text-align: center;
+}
+
+
+.card-1 img{
+    width: 130px;
+    border: 2px solid blue;
+
+}
+
+
+.card-2 img{
+    width: 130px;
+    border: 2px solid blue;
+
+}
+
+
+
+.card-3 img{
+    width: 130px;
+    border: 2px solid blue;
+
+}
+
+
+.card-4 img{
+    width: 130px;
+    border: 2px solid blue;
+
+}
+
+
+
+.card-text{
+    inline-size: 120px;
+    font-size: 14px;
+    text-align: center;
 }
