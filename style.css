@@ -7,8 +7,8 @@
 
 
 .header-section{
-    height: 450px;
-    background-color: #1F2937 ;
+    height: 400px;
+    background-color: #1F2937;
 }
 
 .navbar .conatiner{
@@ -95,6 +95,7 @@ li{
 .middle-section{
     display: flex;
     flex-direction: column;
+    height: 400px;
 }
 
 
@@ -102,8 +103,9 @@ li{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
-    margin: 20px 0;
+    margin: 20px 0 0 0;
     align-self: center;
+    text-align: center;
 }
 
 
@@ -113,8 +115,10 @@ li{
     justify-content: center;
     align-items: center;
     gap: 30px;
+    margin: auto 0;
     text-align: center;
 }
+
 
 .card-1,.card-2,.card-3,.card-4{
     text-align: center;
@@ -165,22 +169,89 @@ li{
 
 
 .quote-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
     /* width: 100%; */
-    height: 300px;
+    height: 400px;
 }
 
 .quotes{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: 200;
 }
 
 
 .paragrah{
-    align-self: center;
+    /* align-self: center; */
+    inline-size: 800px;
 }
 
+
+
 .pn{
-    align-self: center;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+} 
+
+
+
+
+
+.sicribe-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+
+.combinator{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 900px;
+    height: 100px;
+    color: #fff;
+}
+
+.gap{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sub-text{
+    font-weight: 100;
+    color: #dfdfdf;
+}
+
+.button-btn{
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #1F2937;
+}
+
+.footer-text{
+    color: #fff;
+    text-transform: capitalize;
 }
