@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     font-size: 24px;
     font-weight: 900;
-    height: 400px;
+    height: 600px;
     background-color: #1f2937;;
     color: #F9FAF8;
   }
@@ -46,8 +46,11 @@ body {
   }
 
   .hero-cart img{
-    width: 500px;
-    height: 200px;
+    max-width: 100%;
+    height: auto;
+    flex: 0 1 auto;
+    object-fit: cover;
+    aspect-ratio: 5/2;
   }
 
   .hero-button{
@@ -163,9 +166,11 @@ body {
 
   .hero-cart {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     margin: auto 100px;
     gap: 50px;
+    flex-wrap: wrap;
   }
   
 
