@@ -7,6 +7,11 @@ body {
   min-height: 100vh;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   display: flex;
   /* align-items: center; */
@@ -71,6 +76,13 @@ h1{
   color: hsl(217, 91%, 98%);
   padding: 5px 18px;
   border-radius: 5px;
+  border: none;
+}
+
+.hero-button:hover{
+  color: #3b82f6;
+  background-color: #e5e7eb;
+  cursor: pointer;
 }
 
 .sidebar {
@@ -84,10 +96,6 @@ h1{
   border-radius: 4px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-}
 
 .combine-container {
   display: flex;
@@ -234,6 +242,11 @@ a{
   background-color: inherit;
 }
 
+.button-btn:hover{
+  background-color: #e5e7eb;
+  color: #3b82f6;
+  cursor: pointer;
+}
 
 .footer {
   display: flex;
